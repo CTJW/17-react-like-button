@@ -1,10 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .likeButton {
-  height: 100px;
+  height: 75px;
   width: 200px;
   margin-left: 600px;
   margin-top: 200px;
   font-size: 30px;
   border-radius: 5%;
-  background-color: blueviolet;
   color: aliceblue;
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: #4895d7;
+  border: none;
+  box-shadow: 0 9px#2b5981;
+}
+
+.button:hover {
+  background-color: #4895d7;
+}
+
+.button:active {
+  background-color: #4895d7;
+  box-shadow: 0 5px #2b5981;
+  transform: translateY(4px);
 }

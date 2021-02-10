@@ -15,7 +15,7 @@ function App() {
     } else {
       setLikes("likes");
     }
-  });
+  }, [count]);
   return (
     <div className="App">
       <button className="likeButton" onClick={handleClick}>
